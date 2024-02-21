@@ -1,0 +1,20 @@
+spring.application.name=microservicio-afiliados
+server.port=${PORT:0}
+
+
+eureka.instance.instance-id=${spring.application.name}:${random.value}
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+# Configuracion de la base de datos H2
+spring.datasource.url=jdbc:h2:mem:emssanar
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+# Configuracion de JPA
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+
+# Logging
+logging.level.org.hibernate.sql=debug

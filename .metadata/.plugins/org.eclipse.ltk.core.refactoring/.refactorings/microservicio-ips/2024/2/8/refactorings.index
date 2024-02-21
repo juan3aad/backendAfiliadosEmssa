@@ -1,0 +1,6 @@
+1708525035214	Rename package 'com.emssanar.microservicios.app.afiliados'
+1708525091695	Rename type 'MicroservicioAfiliadoApplication'
+1708525132015	Rename type 'AfiliadoController'
+1708525152323	Rename type 'AfiliadoRepository'
+1708525172314	Rename type 'AfiliadoService'
+1708525192462	Rename type 'AfiliadoServiceImpl'

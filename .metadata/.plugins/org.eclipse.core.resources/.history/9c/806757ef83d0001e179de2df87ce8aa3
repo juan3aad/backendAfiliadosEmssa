@@ -1,0 +1,5 @@
+package com.emssanar.microservicios.commons.microservicios.controllers;
+
+public class CommonController {
+
+}

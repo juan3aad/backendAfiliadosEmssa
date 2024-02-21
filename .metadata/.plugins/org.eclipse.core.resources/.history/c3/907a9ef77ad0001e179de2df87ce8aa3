@@ -1,0 +1,30 @@
+package com.emssanar.microservicios.commons.afiliados.models.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="afiliados")
+
+public class Afiliado {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private String identificacion;
+	
+	private String nombre;
+	
+	private String apellido;
+	
+	private String genero;
+	
+	
+	private String celular;
+	
+	private String direccion;
+	
+	
+	
+}

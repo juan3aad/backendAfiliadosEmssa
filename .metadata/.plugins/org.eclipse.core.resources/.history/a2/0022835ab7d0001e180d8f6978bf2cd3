@@ -1,0 +1,10 @@
+spring.application.name=microservicio-gateway
+server.port=8093
+
+eureka.client.service-url.defaultZone=http://localhost:8763/eureka
+
+spring.cloud.gateway.routes[0].id=microservicio-afiliados
+spring.cloud.gateway.routes[0].uri=lb://microservicio-afiliados
+spring.cloud.gateway.routes[0].predicates=Path=/api/afiliados/**
+spring.cloud.gateway.routes[0].filters=StripPrefix=2
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.emssanar.microservicios.app.afiliados.services.AlumnoService.java&apos; to &apos;AfiliadoService.java&apos;&#x0A;- Original project: &apos;microservicio-afiliado&apos;&#x0A;- Original element: &apos;com.emssanar.microservicios.app.afiliados.services.AlumnoService.java&apos;&#x0A;- Renamed element: &apos;com.emssanar.microservicios.app.afiliados.services.AfiliadoService.java&apos;" description="Rename compilation unit &apos;AlumnoService.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.emssanar.microservicios.app.afiliados.services{AlumnoService.java" name="AfiliadoService.java" references="false" stamp="1708497771178" version="1.0"/>
+</session>

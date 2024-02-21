@@ -1,0 +1,5 @@
+package com.emssanar.microservicios.app.afiliados.models.repository;
+
+public interface AfiliadoRepository {
+
+}
